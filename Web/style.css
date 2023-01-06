@@ -1,0 +1,274 @@
+:root {
+    --ff-primary: font-family: 'Playfair Display', serif;
+    --ff-secondary: font-family: 'Poppins', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.54;
+}
+
+body {
+    font-family: var(--ff-secondary);
+}
+
+hr {
+    color: black;
+    opacity: 0.06;
+}
+
+html, h4, h5, h6 {
+    font-size: 0.8125rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+h2, h3, p {
+    margin-bottom: 1em;
+}
+
+p {
+    font-size: 1.125rem;       
+    padding: 0 1.5rem; 
+}
+
+h1 {
+    font-size: 3.1rem;
+    font-weight: 300;
+    padding: 0 1rem 0 1rem;
+}
+
+#buttonlink {
+    display: flex;
+    /* max-width: fit-content; */
+    align-items: center;
+    justify-content: center;
+    width: 142.64px;
+    height: 40.02px;
+    background-color: #4173C9;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+span {
+    padding-left: 10%;
+}
+
+#mainheader {
+    padding-left: 20vw;
+}
+
+#googlelogo {
+    padding-bottom: 0.8rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+header, section {
+    padding: 1.5rem 0;
+}
+
+.MakeGoogleHomePage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#instantaccessp {
+    font-size: 1.6rem;
+}
+
+#mainpic {
+    max-width: 100%;
+    padding-top: 4rem;
+}
+
+.container {
+    margin-inline: auto;
+    width: min(90%, 72.5rem);
+    font-size: 1rem;
+    padding-top: 2em;
+}
+
+.container h3 {
+    font-size: 1.5rem;
+}
+
+.container p {
+    line-height: 0.3;
+    padding: 0;
+}
+
+@media screen and (max-width: 465px) {
+    .container p {
+        line-height: 1.5;
+        margin-bottom: 0rem;
+    }
+    
+}
+
+.split {
+    display: flex;
+    flex-direction: column;
+}
+
+.opensettingsdiv {
+   width: fit-content;
+}
+
+
+.homepagediv {
+    width: fit-content;
+    font-size: 0.8125rem;
+    height: 1em;
+}
+
+#syncsettingsp {
+    padding-bottom: 2rem;
+}
+
+#learnmorelink {
+    color: #7759AE;
+    /* padding-top: 10rem; */
+}
+
+/* #syncsettingsimg {
+    margin-left: 4rem;
+} */
+
+@media screen and (max-width: 1047px) {
+    .container p {
+        line-height: 1.2;
+        margin-bottom: 0;
+    }
+}
+
+/* comment */
+
+@media screen and (min-width: 1021px) {
+    .opensettingsdiv p{
+        line-height: 1.5;
+        margin-bottom: 0;
+    }
+
+    .split {
+        display: flex;
+        flex-direction: row;
+    }
+    #settingspic { 
+        padding-left: 4rem;
+    }
+    
+    .homepagediv {
+        padding-left: 1.5rem;
+    }
+
+    .homepagediv p{
+        line-height: 1.5;
+        margin-bottom: 0;
+        width: 100%;
+        /* font-size: 1rem; */
+    }
+
+    #homepagepic {
+        max-width: 100%;
+        margin-right: 15rem;
+    }
+
+    .syncsettingdivimg {
+        width: 95%;
+    }
+
+    .syncsettingsdiv p{
+        line-height: 1.5;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    #syncsettingsimg {
+        max-width: 100%;
+        margin-left: 4rem;
+    }
+
+}
+
+/* comment 2.0 */
+
+@media screen and (max-width: 385px) {
+    .syncsettingsdiv {
+        margin-top: 5rem;
+    }
+
+    .syncsettingsdiv h3 {
+        margin-bottom: 0;
+    }
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1020px) {
+    #mainheader {
+        padding-left: 1vw;
+    }
+    /* .container p {
+        
+    } */
+    .homepagediv p{
+        line-height: 1.2;
+        margin-bottom: 0;
+    }
+
+    #homepagepic {
+        padding-bottom: 3rem;
+    }
+
+    .syncsettingsdiv {
+        padding-top: 5rem;
+    }
+} 
+
+
+
+/* Mobile */
+@media screen and (max-width: 850px){
+    #mainheader {
+        padding-left: 1vw;
+    }
+
+    .syncsettingsdiv {
+        padding-top: 7rem;
+    }
+};
+
+
+
+
+/* Tablet */
+/* @media screen and (max-width: 1024px){
+    #mainheader {
+        padding-left: 2vw;
+    }
+};   */
+
+/* Laptop/Desktop  */
+
+/* @media screen and (min-width: 1200px) {
+    
+}
+     */
